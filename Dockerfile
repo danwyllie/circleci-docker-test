@@ -1,5 +1,5 @@
 # init a base image (Alpine is small Linux distro)
-FROM python:3.6.1-alpine
+FROM python:3.7-alpine3.15
 # update pip to minimize dependency errors
 # hadolint ignore=DL3013
 RUN pip install --no-cache-dir --upgrade pip
